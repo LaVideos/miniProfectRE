@@ -11,7 +11,9 @@
 
 #btnPosts{
     width: 90%;
-
+}
+a,button{
+    width: 100px;
 }
 
 .btnDiv{
@@ -38,13 +40,39 @@
     flex-direction: column;
     justify-content: space-between;
 
+    transition: 400ms;
+
 }
+.allTitles>div:hover{
+    background: #80b7c9;
+}
+
 .allTitles>div>div {
     padding: 5px;
 
     box-sizing: border-box;
 }
 
-div li li{
+div>li>li{
     margin-left: 30px;
+}
+
+.mainDiv>div{
+    margin-left: 10px;
+    width: 30%;
+}
+
+.mainDiv>div:hover{
+    background: #80b7c9;
+    transition: 300ms;
+}
+
+.mainDiv>div>li:hover{
+    background: #afa26b;
+    transition: 400ms;
+}
+
+.mainDiv>div>li>li:hover{
+    background: #80b7c9;
+    transition: 400ms;
 }

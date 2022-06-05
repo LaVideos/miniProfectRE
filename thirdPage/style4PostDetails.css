@@ -9,6 +9,8 @@
 
     padding: 20px;
     box-sizing: border-box;
+
+    transition: 400ms;
 }
 
 .divPost{
@@ -23,4 +25,25 @@
     padding: 10px;
     box-sizing: border-box;
     font-size: 12px;
+    transition: 400ms;
+}
+.divPost>div:hover{
+    background: #80b7c9;
+}
+
+.divPost>div>div{
+    transition: 300ms;
+    margin-bottom: 5px;
+}
+
+.divPost>div>div:hover{
+    background: #93cfe3;
+}
+
+.mainDiv:hover{
+    background: #afa26b;
+}
+
+.mainDiv>div:hover{
+    background: #cebf7f;
 }

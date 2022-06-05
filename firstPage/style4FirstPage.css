@@ -22,13 +22,21 @@
 
 }
 
+a,button{
+    width: 36px;
+}
+
+
+
 .mainDiv div:nth-child(even){
     background: #6492a1;
+    transition: 300ms;
 
 }
 
 .mainDiv div:nth-child(odd){
     background: #a19564;
+    transition: 300ms;
 
 }
 
@@ -37,4 +45,12 @@
     margin-top: 10px;
 
     width: 300px;
+}
+
+.mainDiv>div:nth-child(even):hover{
+    background: #395159;
+}
+
+.mainDiv>div:nth-child(odd):hover{
+    background: #544e33;
 }
