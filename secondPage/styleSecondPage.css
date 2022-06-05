@@ -1,0 +1,50 @@
+*{
+    font-family: Montserrat,serif;
+}
+
+
+.mainDiv{
+    background: #6492a1;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#btnPosts{
+    width: 90%;
+
+}
+
+.btnDiv{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.allTitles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.allTitles>div{
+    width: calc(95%/5);
+    font-size: 14px;
+
+    margin-top: 20px;
+
+    background: #a19564;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.allTitles>div>div {
+    padding: 5px;
+
+    box-sizing: border-box;
+}
+
+div li li{
+    margin-left: 30px;
+}

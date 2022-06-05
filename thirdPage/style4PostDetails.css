@@ -1,0 +1,26 @@
+*{
+    font-family: Montserrat,serif;
+}
+
+.mainDiv{
+    background: #a19564;
+
+    font-size: 20px;
+
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.divPost{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.divPost>div {
+    width: calc(90%/5);
+    margin-top: 30px;
+    background: #6492a1;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 12px;
+}

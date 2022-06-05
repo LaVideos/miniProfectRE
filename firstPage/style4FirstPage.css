@@ -1,0 +1,40 @@
+*{
+    font-family: Montserrat,serif;
+}
+
+.mainDiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    justify-items: center;
+
+}
+
+.mainDiv div{
+    width: calc(80% / 2);
+    margin-bottom: 20px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: space-between;
+
+}
+
+.mainDiv div:nth-child(even){
+    background: #6492a1;
+
+}
+
+.mainDiv div:nth-child(odd){
+    background: #a19564;
+
+}
+
+.mainDiv div div {
+    margin-left: 10px;
+    margin-top: 10px;
+
+    width: 300px;
+}
